@@ -3,6 +3,7 @@ accounts-password@1.1.4
 aldeed:autoform@5.8.1
 aldeed:collection2@2.7.1
 aldeed:simple-schema@1.5.3
+anti:fake@0.4.1
 anti:i18n@0.4.3
 autoupdate@1.2.4
 babel-compiler@5.8.24_1
@@ -36,6 +37,9 @@ fastclick@1.0.7
 fortawesome:fontawesome@4.5.0
 geojson-utils@1.0.4
 gwendall:auth-client-callbacks@0.1.0
+gwendall:jquery-animation-callback@0.1.2
+gwendall:template-animations@0.2.2
+gwendall:ui-hooks@0.1.7
 hot-code-push@1.0.0
 html-tools@1.0.5
 htmljs@1.0.5
@@ -63,6 +67,7 @@ momentjs:moment@2.10.6
 mongo@1.1.3
 mongo-id@1.0.1
 mrt:moment@2.8.1
+natestrauser:animate-css@3.4.0
 npm-bcrypt@0.7.8_2
 npm-mongo@1.4.39_1
 observe-sequence@1.0.7
