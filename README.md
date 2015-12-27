@@ -31,3 +31,9 @@ insecure
 ```
 
 ## How to use
+in terminal
+```
+# Clone git repository and run the application with your app name <yourapp>
+git clone git@github.com:ChangJoo-Park/Meteor-Boilerplate-FlowRouter.git <yourapp>
+meteor
+```
