@@ -21,7 +21,10 @@ accounts-password
 matb33:bootstrap-glyphicons
 zimme:active-route
 gwendall:auth-client-callbacks
+gwendall:template-animations
 raix:handlebar-helpers
+natestrauser:animate-css
+anti:fake
 ```
 
 ## Remove Packages
