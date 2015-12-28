@@ -1,0 +1,13 @@
+<template name="SinglePostView">
+	{{#if Template.subscriptionsReady}}
+		<h1>{{post.title}}</h1>
+		<div>
+			{{readableCreatedDateTime}}
+		</div>
+		<div>
+			{{post.content}}
+		</div>
+	{{else}}
+		{{> spinner}}
+	{{/if}}
+</template>

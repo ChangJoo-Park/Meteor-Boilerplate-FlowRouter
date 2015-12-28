@@ -20,7 +20,7 @@ kadira:blaze-layout
 kadira:flow-router
 twbs:bootstrap
 sacha:spin
-mrt:moment
+momentjs:moment
 aldeed:collection2
 aldeed:autoform
 erasaur:meteor-lodash
@@ -37,3 +37,4 @@ gwendall:template-animations
 raix:handlebar-helpers
 natestrauser:animate-css
 anti:fake
+wizonesolutions:underscore-string
