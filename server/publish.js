@@ -1,5 +1,7 @@
-Meteor.publish('allPosts', function () {
-	return Posts.find();
+Meteor.publish('allPosts', function (limit) {
+	const increment = 5;
+	const numOfLoads = limit * increment;
+	return Posts.find({}, { limit: numOfLoads });
 });
 
 Meteor.publish('singlePost', function(slug){
