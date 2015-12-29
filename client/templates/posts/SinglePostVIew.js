@@ -2,7 +2,7 @@ Template.SinglePostView.onCreated(function() {
 	Session.set('currentPost', undefined);
 	const self = this;
 	self.autorun(function() {
-		let slug = FlowRouter.getParam('slug');
+		const slug = FlowRouter.getParam('slug');
 		self.subscribe('singlePost', slug);
 	});
 });
@@ -13,8 +13,13 @@ Template.SinglePostView.helpers({
 		Session.set('currentPost', post[0]);
 		return post[0];
 	},
+	isOwner: function() {
+		return Meteor.userId() === Session.get('currentPost').author;
+	}
 });
 
 Template.SinglePostView.events({
-
+	'click #deletePostButton': function() {
+		console.log("BABCD");
+	}
 });

@@ -1,0 +1,7 @@
+<template name="EditPost">
+	{{#if Template.subscriptionsReady}}
+	{{post.title}}
+	{{else}}
+		{{> spinner}}
+	{{/if}}
+</template>

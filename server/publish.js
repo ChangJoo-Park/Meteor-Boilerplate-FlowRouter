@@ -15,12 +15,11 @@ Meteor.publish('allPosts', function(limit) {
 Meteor.publish('singlePost', function(slug) {
 	return Posts.find({
 		slug: slug
-	}, {
-		fields: {
-			title: 1,
-			content: 1,
-			author: 1,
-			createdAt: 1
-		}
+	});
+});
+
+Meteor.publish('editPost', function(id) {
+	return Posts.find({
+		_id: id
 	});
 });
