@@ -36,5 +36,5 @@ gwendall:auth-client-callbacks
 gwendall:template-animations
 raix:handlebar-helpers
 natestrauser:animate-css
-anti:fake
+digilord:faker
 wizonesolutions:underscore-string

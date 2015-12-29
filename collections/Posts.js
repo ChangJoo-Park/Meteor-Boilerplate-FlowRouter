@@ -16,6 +16,12 @@ PostSchema = new SimpleSchema({
 			type: 'hidden'
 		}
 	},
+	summary: {
+		type: String,
+		autoform: {
+			type: 'hidden'
+		}
+	},
 	author: {
 		type: String,
 		label: "Author",
